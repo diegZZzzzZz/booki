@@ -1,19 +1,5 @@
 .label {
   color: var(--color-black);
-}
-
-.label-bold {
   font-weight: bold;
-}
-
-.label-large {
-  font-size: 18px;
-}
-
-.label-medium {
   font-size: 16px;
-}
-
-.label-small {
-  font-size: 14px;
 }
