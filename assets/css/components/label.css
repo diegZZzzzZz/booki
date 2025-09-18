@@ -1,0 +1,14 @@
+.label {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.label-big {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.label-small {
+  font-size: 16px;
+  font-weight: 700;
+}

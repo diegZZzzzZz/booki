@@ -1,0 +1,7 @@
+.info__icon {
+  width: 4px;
+  height: 10px;
+  padding: 7px 10px;
+  border: 1px solid var(--color-gray);
+  border-radius: 50%;
+}

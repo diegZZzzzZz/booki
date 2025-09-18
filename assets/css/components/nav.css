@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  gap: 68px;
+  margin-top: 5px;
+}
+
+.nav__list {
+  border-top: 2px solid transparent;
+  padding-top: 14px;
+  transition: 0.3s ease-in-out;
+}
+
+.nav__list:hover {
+  border-color: var(--color-blue);
+}

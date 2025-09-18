@@ -1,0 +1,24 @@
+.btn {
+  display: flex;
+  margin-left: 15px;
+  width: auto;
+  height: 50px;
+  align-items: center;
+  border: 2px solid var(--color-gray);
+  border-radius: 25px;
+  transition: 0.2s ease-in-out;
+}
+
+.btn__icon {
+  padding: 14px 10px 14px 19px;
+  width: 22px;
+  height: 22px;
+}
+
+.btn__text {
+  padding-right: 19px;
+}
+
+.btn:hover {
+  background-color: var(--color-light-blue);
+}
