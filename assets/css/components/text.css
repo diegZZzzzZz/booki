@@ -1,10 +1,15 @@
 .text,
-.text--blue {
+.text-h-blue {
   font-size: 16px;
   text-decoration: none;
   color: var(--color-black);
 }
 
-.text--blue:hover {
+.text-h-blue:hover {
   color: var(--color-blue);
+}
+
+.text--small {
+  font-size: 14px;
+  color: var(--color-black);
 }

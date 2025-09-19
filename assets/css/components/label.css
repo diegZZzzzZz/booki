@@ -3,12 +3,13 @@
   font-weight: 700;
 }
 
-.label-big {
+.label--big {
+  font-family: "Raleway";
   font-size: 18px;
   font-weight: 700;
 }
 
-.label-small {
+.label--small {
   font-size: 16px;
   font-weight: 700;
 }
