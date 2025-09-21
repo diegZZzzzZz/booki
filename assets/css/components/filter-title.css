@@ -1,3 +1,7 @@
+.filter__title {
+  margin-right: 15px;
+}
+
 @media screen and (max-width: 1024px) {
   .filter__title {
     margin-bottom: 20px;

@@ -21,221 +21,249 @@
       </nav>
     </header>
     <main class="home-page">
-      <section class="search-section">
-        <div class="intro">
-          <h1 class="title intro__title">Trouvez votre hébergement pour des vacances de rêve</h1>
-          <p class="text">En plein centre-ville ou en pleine nature</p>
-        </div>
-        <div class="search">
-          <form class="search__form" method="get">
+      <div class="page__inner">
+        <section class="search-section">
+          <div class="intro">
+            <h1 class="title intro__title">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p class="text">En plein centre-ville ou en pleine nature</p>
+          </div>
+
+          <form class="search" method="get">
             <label class="search__label" for="search">
               <img src="assets/img/icon-location.svg" alt="Icône de localisation" />
             </label>
-            <input class="search__bar label--big" type="text" name="search" value="Marseille, France" id="search" />
-            <button class="search__btn" type="submit">
-              <span class="search__btn-text label--big--white">Rechercher</span>
-              <img class="search__btn-icon" src="assets/img/icon-glass.svg" alt="Icône de loupe" />
-            </button>
+            <div class="search__border">
+              <input class="search__bar label--big" type="text" name="search" value="Marseille, France" id="search" />
+              <button class="search__btn" type="submit">
+                <span class="search__btn-text label--big--white">Rechercher</span>
+                <img class="search__btn-icon" src="assets/img/icon-glass.svg" alt="Icône de loupe" />
+              </button>
+            </div>
           </form>
-        </div>
-        <div class="filter">
-          <div class="label--big filter__title">Filtre</div>
-          <ul class="filter__list">
-            <li class="btn">
-              <img class="btn__icon" src="assets/img/icon-money.svg" alt="Icône de monnaie" />
-              <p class="label">Économique</p>
-            </li>
-            <li class="btn">
-              <img class="btn__icon" src="assets/img/icon-guys.svg" alt="Icône de bonhomme" />
-              <p class="label">Familial</p>
-            </li>
-            <li class="btn">
-              <img class="btn__icon" src="assets/img/icon-heart.svg" alt="Icône de coeur" />
-              <p class="label">Romantique</p>
-            </li>
-            <li class="btn">
-              <img class="btn__icon" src="assets/img/icon-flame.svg" alt="Icône de flamme" />
-              <p class="label">Nos pépites</p>
-            </li>
-          </ul>
-        </div>
-        <div class="infobar">
-          <div class="info__icon">
-            <img src="assets/img/icon-info.svg" alt="Icône information" />
+
+          <div class="filter">
+            <div class="label--big filter__title">Filtre</div>
+            <ul class="filter__list">
+              <li class="btn">
+                <img class="btn__icon" src="assets/img/icon-money.svg" alt="Icône de monnaie" />
+                <p class="label">Économique</p>
+              </li>
+              <li class="btn">
+                <img class="btn__icon" src="assets/img/icon-guys.svg" alt="Icône de bonhomme" />
+                <p class="label">Familial</p>
+              </li>
+              <li class="btn">
+                <img class="btn__icon" src="assets/img/icon-heart.svg" alt="Icône de coeur" />
+                <p class="label">Romantique</p>
+              </li>
+              <li class="btn">
+                <img class="btn__icon" src="assets/img/icon-flame.svg" alt="Icône de flamme" />
+                <p class="label">Nos pépites</p>
+              </li>
+            </ul>
           </div>
-          <p class="text info__text">Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>
-      </section>
-      <section class="accommodation-section accomodation" id="accommodation">
-        <div class="accomodation__container">
-          <h2 class="title">Hébergements à Marseille</h2>
-          <div class="container__card">
-            <a href="#hotel-du-port" class="card">
-              <div class="card__frame">
-                <img class="card__img" src="assets/img/H-port.jpg" alt="Hôtel du port" />
-              </div>
-              <p class="label--small card__text">Hôtel du port</p>
-              <p class="text--small card__text">Nuit à partir de 52€</p>
-              <img class="card__icon" src="assets/img/icon-stars.svg" alt="notation:quatre étoiles" />
-            </a>
-            <a href="#hotel-chez-amina" class="card">
-              <div class="card__frame">
-                <img class="card__img" src="assets/img/H-amina.jpg" alt="Hôtel Chez Amina" />
-              </div>
-              <p class="label--small card__text">Hôtel chez Amina</p>
-              <p class="text--small card__text">Nuit à partir de 96€</p>
-              <img class="card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
-            </a>
-            <a href="#hotel-les-mouettes" class="card">
-              <div class="card__frame">
-                <img class="card__img" src="assets/img/H-mouettes.jpg" alt="Hôtel Les mouettes" />
-              </div>
-              <p class="label--small card__text">Hôtel Les Mouettes</p>
-              <p class="text--small card__text">Nuit à partir de 76€</p>
-              <img class="card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
-            </a>
-            <a href="#hotel-de-la-mer" class="card">
-              <div class="card__frame">
-                <img class="card__img" src="assets/img/H-mer.jpg" alt="Hôtel de la mer" />
-              </div>
-              <p class="label--small card__text">Hôtel de la mer</p>
-              <p class="text--small card__text">Nuit à partir de 46€</p>
-              <img class="card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
-            </a>
-            <a href="#auberge-la-canebiere" class="card">
-              <div class="card__frame">
-                <img class="card__img" src="assets/img/A-canebiere.jpg" alt="Auberge La Canebière" />
-              </div>
-              <p class="label--small card__text">Auberge La Canebière</p>
-              <p class="text--small card__text">Nuit à partir de 25€</p>
-              <img class="card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
-            </a>
-            <a href="#auberge-le-panier" class="card">
-              <div class="card__frame">
-                <img class="card__img" src="assets/img/A-panier.jpg" alt="Auberge Le Panier" />
-              </div>
-              <p class="label--small card__text">Auberge Le Panier</p>
-              <p class="text--small card__text">Nuit à partir de 23€</p>
-              <img class="card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
-            </a>
+          <div class="infobar">
+            <div class="info__icon">
+              <img src="assets/img/icon-info.svg" alt="Icône information" />
+            </div>
+            <p class="text info__text">Plus de 500 logements sont disponibles dans cette ville</p>
           </div>
-          <button class="btn__more label--big">Afficher plus</button>
-        </div>
-      </section>
-      <section class="popular-accommodation-section accommodation">
-        <div class="popular-accomodation__container">
-          <div class="accomodation__title">
-            <h2 class="title">Les plus populaires</h2>
-            <img src="assets/img/icon-chart.svg" alt="Icône d'un graphique" />
+        </section>
+        <section class="accommodation-section accomodation" id="accommodation">
+          <div class="accomodation__container">
+            <h2 class="title">Hébergements à Marseille</h2>
+            <div class="container__card">
+              <a href="#hotel-du-port" class="card">
+                <div class="card__frame">
+                  <img class="card__img" src="assets/img/H-port.jpg" alt="Hôtel du port" />
+                </div>
+                <div class="card__info">
+                  <div class="card__text">
+                    <p class="label--small card__title">Hôtel du port</p>
+                    <p class="text--small">Nuit à partir de 52€</p>
+                  </div>
+                  <img class="card__icon" src="assets/img/icon-stars.svg" alt="notation:quatre étoiles" />
+                </div>
+              </a>
+              <a href="#hotel-chez-amina" class="card">
+                <div class="card__frame">
+                  <img class="card__img" src="assets/img/H-amina.jpg" alt="Hôtel Chez Amina" />
+                </div>
+                <div class="card__info">
+                  <div class="card__text">
+                    <p class="label--small card__title">Hôtel chez Amina</p>
+                    <p class="text--small">Nuit à partir de 96€</p>
+                  </div>
+                  <img class="card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
+                </div>
+              </a>
+              <a href="#hotel-les-mouettes" class="card">
+                <div class="card__frame">
+                  <img class="card__img" src="assets/img/H-mouettes.jpg" alt="Hôtel Les mouettes" />
+                </div>
+                <div class="card__info">
+                  <div class="card__text">
+                    <p class="label--small card__title">Hôtel Les Mouettes</p>
+                    <p class="text--small">Nuit à partir de 76€</p>
+                  </div>
+                  <img class="card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
+                </div>
+              </a>
+              <a href="#hotel-de-la-mer" class="card">
+                <div class="card__frame">
+                  <img class="card__img" src="assets/img/H-mer.jpg" alt="Hôtel de la mer" />
+                </div>
+                <div class="card__info">
+                  <div class="card__text">
+                    <p class="label--small card__title">Hôtel de la mer</p>
+                    <p class="text--small">Nuit à partir de 46€</p>
+                  </div>
+                  <img class="card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
+                </div>
+              </a>
+              <a href="#auberge-la-canebiere" class="card">
+                <div class="card__frame">
+                  <img class="card__img" src="assets/img/A-canebiere.jpg" alt="Auberge La Canebière" />
+                </div>
+                <div class="card__info">
+                  <div class="card__text">
+                    <p class="label--small card__title">Auberge La Canebière</p>
+                    <p class="text--small">Nuit à partir de 25€</p>
+                  </div>
+                  <img class="card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
+                </div>
+              </a>
+              <a href="#auberge-le-panier" class="card">
+                <div class="card__frame">
+                  <img class="card__img" src="assets/img/A-panier.jpg" alt="Auberge Le Panier" />
+                </div>
+                <div class="card__info">
+                  <div class="card__text">
+                    <p class="label--small card__title">Auberge Le Panier</p>
+                    <p class="text--small">Nuit à partir de 23€</p>
+                  </div>
+                  <img class="card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
+                </div>
+              </a>
+            </div>
+            <button class="btn__more label--big">Afficher plus</button>
           </div>
-          <ul class="container__large--card">
-            <li>
-              <a class="large--card" href="#hotel-le-soleil-du-matin">
-                <div class="large--card__frame">
-                  <img class="large--card__img" src="assets/img/H-soleil.jpg" alt="Hôtel Le soleil du matin" />
-                </div>
-                <div class="large--card__info">
-                  <p class="label--small large--card__title">Hôtel Le soleil du matin</p>
-                  <p class="text--small">Nuit à partir de 25€</p>
-                  <img class="large--card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
-                </div>
-              </a>
-            </li>
-            <li>
-              <a class="large--card" href="#chanbres-d-hotes-au-coeur-de-l-eau">
-                <div class="large--card__frame">
-                  <img class="large--card__img" src="assets/img/C-eau.jpg" alt="Chambres d’hôtes Au cœur de l’eau" />
-                </div>
-                <div class="large--card__info">
-                  <p class="label--small large--card__title">Chambres d’hôtes Au cœur de l’eau</p>
-                  <p class="text--small">Nuit à partir de 71€</p>
-                  <img class="large--card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
-                </div>
-              </a>
-            </li>
-            <li>
-              <a class="large--card" href="#hotel-bleu-et-blanc">
-                <div class="large--card__frame">
-                  <img class="large--card__img" src="assets/img/H-BetB.jpg" alt="Hôtel Bleu et Blanc" />
-                </div>
-                <div class="large--card__info">
-                  <p class="label--small large--card__title">Hôtel Bleu et Blanc</p>
-                  <p class="text--small">Nuit à partir de 68€</p>
-                  <img class="large--card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="activities-section" id="activities">
-        <div class="activities">
-          <h2 class="title">Activités à Marseille</h2>
-          <ul class="activities__list">
-            <li class="high--card">
-              <a href="#vieux-port">
-                <div class="high--card__frame">
-                  <img class="high--card__img" src="assets/img/Vieux-port.jpg" alt="Vieux-Port" />
-                </div>
-                <p class="high--card__text label--small">Vieux-Port</p>
-              </a>
-            </li>
-            <li class="high--card">
-              <a href="#fort-de-pomegues">
-                <div class="high--card__frame">
-                  <img class="high--card__img" src="assets/img/Pomegues.jpg" alt="Fort de Pomègues" />
-                </div>
-                <p class="high--card__text label--small">Fort de Pomègues</p>
-              </a>
-            </li>
-            <li class="high--card">
-              <a href="#parc-national-des-calanques">
-                <div class="high--card__frame">
-                  <img class="high--card__img" src="assets/img/Calanques.jpg" alt="Parc national des Calanques" />
-                </div>
-                <p class="high--card__text label--small">Parc national des Calanques</p>
-              </a>
-            </li>
-            <li class="high--card">
-              <a href="#notre-dame-de-la-garde">
-                <div class="high--card__frame">
-                  <img class="high--card__img" src="assets/img/N-D-G.jpg" alt="Notre-Dame-de-la-Garde" />
-                </div>
-                <p class="high--card__text label--small">Notre-Dame-de-la-Garde</p>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+        </section>
+        <section class="popular-accommodation-section accommodation">
+          <div class="popular-accomodation__container">
+            <div class="accomodation__title">
+              <h2 class="title">Les plus populaires</h2>
+              <img src="assets/img/icon-chart.svg" alt="Icône d'un graphique" />
+            </div>
+            <ul class="container__large--card">
+              <li>
+                <a class="large--card" href="#hotel-le-soleil-du-matin">
+                  <div class="large--card__frame">
+                    <img class="large--card__img" src="assets/img/H-soleil.jpg" alt="Hôtel Le soleil du matin" />
+                  </div>
+                  <div class="large--card__info">
+                    <p class="label--small large--card__title">Hôtel Le soleil du matin</p>
+                    <p class="text--small">Nuit à partir de 25€</p>
+                    <img class="large--card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="large--card" href="#chanbres-d-hotes-au-coeur-de-l-eau">
+                  <div class="large--card__frame">
+                    <img class="large--card__img" src="assets/img/C-eau.jpg" alt="Chambres d’hôtes Au cœur de l’eau" />
+                  </div>
+                  <div class="large--card__info">
+                    <p class="label--small large--card__title">Chambres d’hôtes Au cœur de l’eau</p>
+                    <p class="text--small">Nuit à partir de 71€</p>
+                    <img class="large--card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="large--card" href="#hotel-bleu-et-blanc">
+                  <div class="large--card__frame">
+                    <img class="large--card__img" src="assets/img/H-BetB.jpg" alt="Hôtel Bleu et Blanc" />
+                  </div>
+                  <div class="large--card__info">
+                    <p class="label--small large--card__title">Hôtel Bleu et Blanc</p>
+                    <p class="text--small">Nuit à partir de 68€</p>
+                    <img class="large--card__icon" src="assets/img/icon-stars.svg" alt="notation: quatre étoiles" />
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="activities-section" id="activities">
+          <div class="activities">
+            <h2 class="title">Activités à Marseille</h2>
+            <ul class="activities__list">
+              <li class="high--card">
+                <a href="#vieux-port">
+                  <div class="high--card__frame">
+                    <img class="high--card__img" src="assets/img/Vieux-port.jpg" alt="Vieux-Port" />
+                  </div>
+                  <p class="high--card__text label--small">Vieux-Port</p>
+                </a>
+              </li>
+              <li class="high--card">
+                <a href="#fort-de-pomegues">
+                  <div class="high--card__frame">
+                    <img class="high--card__img" src="assets/img/Pomegues.jpg" alt="Fort de Pomègues" />
+                  </div>
+                  <p class="high--card__text label--small">Fort de Pomègues</p>
+                </a>
+              </li>
+              <li class="high--card">
+                <a href="#parc-national-des-calanques">
+                  <div class="high--card__frame">
+                    <img class="high--card__img" src="assets/img/Calanques.jpg" alt="Parc national des Calanques" />
+                  </div>
+                  <p class="high--card__text label--small">Parc national des Calanques</p>
+                </a>
+              </li>
+              <li class="high--card">
+                <a href="#notre-dame-de-la-garde">
+                  <div class="high--card__frame">
+                    <img class="high--card__img" src="assets/img/N-D-G.jpg" alt="Notre-Dame-de-la-Garde" />
+                  </div>
+                  <p class="high--card__text label--small">Notre-Dame-de-la-Garde</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </main>
     <footer class="footer">
-      <ul>
-        <li class="label--big footer__text">À propos</li>
-        <li class="text footer__text">
+      <ul class="footer__text">
+        <li class="label--big footer__info">À propos</li>
+        <li class="text footer__info">
           <a href="#fonctionnement-du-site">Fonctionnement du site</a>
         </li>
-        <li class="text footer__text">
+        <li class="text footer__info">
           <a href="#conditions-générales">Conditions générales</a>
         </li>
-        <li class="text footer__text">
+        <li class="text footer__info">
           <a href="#donnees-et-confidentialites">Données et confidentialité</a>
         </li>
       </ul>
-      <ul>
-        <li class="label--big footer__text">Nos hébergements</li>
-        <li class="text footer__text">
+      <ul class="footer__text">
+        <li class="label--big footer__info">Nos hébergements</li>
+        <li class="text footer__info">
           <a href="#charte-qualite">Charte qualité</a>
         </li>
-        <li class="text footer__text">
+        <li class="text footer__info">
           <a href="#proposer-votre-hotel">Proposer votre hôtel</a>
         </li>
       </ul>
-      <ul>
-        <li class="label--big footer__text">Assistance</li>
-        <li class="text footer__text">
+      <ul class="footer__text">
+        <li class="label--big footer__info">Assistance</li>
+        <li class="text footer__info">
           <a href="#centre-d-aide">Centre d’aide</a>
         </li>
-        <li class="text footer__text">
+        <li class="text footer__info">
           <a href="#nous-contacter">Nous contacter</a>
         </li>
       </ul>

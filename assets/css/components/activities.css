@@ -3,3 +3,9 @@
   padding-top: 30px;
   gap: 30px;
 }
+
+@media screen and (max-width: 767px) {
+  .activities__list {
+    flex-direction: column;
+  }
+}

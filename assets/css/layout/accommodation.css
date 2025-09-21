@@ -13,6 +13,14 @@
 
 @media screen and (max-width: 1024px) {
   .popular-accomodation__container {
-    height: 252px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .accomodation__container,
+  .popular-accomodation__container {
+    height: auto;
+    padding: 20px 20px 0 20px;
   }
 }

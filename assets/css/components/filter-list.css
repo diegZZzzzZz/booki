@@ -2,3 +2,12 @@
   display: flex;
   gap: 15px;
 }
+
+@media screen and (max-width: 767px) {
+  .filter__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+  }
+}

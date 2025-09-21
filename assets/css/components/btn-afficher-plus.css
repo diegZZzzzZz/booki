@@ -4,3 +4,10 @@
   padding: 0;
   border: none;
 }
+
+@media screen and (max-width: 767px) {
+  .btn__more {
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+}
