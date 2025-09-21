@@ -1,4 +1,11 @@
-nav {
+.nav {
   display: inline-block;
   justify-items: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .nav {
+    display: flex;
+    justify-items: center;
+  }
 }

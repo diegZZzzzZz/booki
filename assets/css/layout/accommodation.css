@@ -1,11 +1,18 @@
 .accomodation {
   display: flex;
-  gap: 40px;
 }
 
-.accomodation__container {
+.accomodation__container,
+.popular-accomodation__container {
   background-color: var(--color-light-gray);
   border-radius: 15px;
   padding: 30px 30px 0px 30px;
   height: 614px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .popular-accomodation__container {
+    height: 252px;
+  }
 }

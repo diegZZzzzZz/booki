@@ -24,6 +24,7 @@
 @import url("layout/infobar.css");
 @import url("layout/accommodation.css");
 @import url("layout/activities.css");
+@import url("layout/footer.css");
 
 /*
  * Components
@@ -42,6 +43,10 @@
 @import url("components/title-populaire.css");
 @import url("components/btn-afficher-plus.css");
 @import url("components/activities.css");
+@import url("components/link.css");
+@import url("components/text-footer.css");
+@import url("components/filter-list.css");
+@import url("components/filter-title.css");
 
 /*
  * Pages

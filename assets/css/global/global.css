@@ -4,7 +4,14 @@
 
 html,
 body {
+  cursor: default;
   font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
+}
+
+a {
+  cursor: default;
+  text-decoration: none;
+  color: currentColor;
 }

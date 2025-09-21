@@ -1,0 +1,5 @@
+@media screen and (max-width: 1024px) {
+  .filter__title {
+    margin-bottom: 20px;
+  }
+}

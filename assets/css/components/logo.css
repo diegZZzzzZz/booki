@@ -2,3 +2,10 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 767px) {
+  .logo {
+    padding: 30px;
+    margin: 0 33.85%;
+  }
+}
