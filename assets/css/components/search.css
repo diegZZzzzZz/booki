@@ -38,6 +38,12 @@
   display: none;
 }
 
+@media screen and (max-width: 1024px) {
+  .search__label {
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .search__label {
     height: auto;
