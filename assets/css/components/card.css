@@ -44,10 +44,6 @@
   margin-bottom: 8px;
 }
 
-.card__icon {
-  justify-self: flex-end;
-}
-
 .container__large--card {
   margin-top: 30px;
 }
@@ -94,8 +90,6 @@
 .large--card__icon {
   position: absolute;
   bottom: 10px;
-  width: 68px;
-  height: 12px;
 }
 
 .high--card {

@@ -1,0 +1,21 @@
+.icon-star {
+  display: flex;
+  gap: 2.38px;
+}
+
+.star {
+  width: 14.3px;
+  height: 13.3px;
+  background-image: url("../../img/star.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.blue-star {
+  background-image: url("../../img/blue-star.svg");
+}
+
+.star-small {
+  width: 12px;
+  height: 12px;
+}
